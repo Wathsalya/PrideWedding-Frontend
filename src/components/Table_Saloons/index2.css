@@ -1,0 +1,50 @@
+:root {
+  --color-checked: rgb(33, 137, 247);
+  --color-border: rgb(61, 63, 65);
+}
+
+html,
+body {
+  font-size: 20px;
+  background-color: #eaeaea;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.paper {
+  background-color: white;
+  border: 1px solid #dadada;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0px 5px 20px #c7c7c7;
+}
+
+.atable{
+  border-collapse: collapse;
+  width: 800px;
+  overflow-x: scroll;
+  display: block;
+  table-layout: fixed
+}
+.atbody {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 140px;
+}
+
+.testClass{
+  text-shadow: 3px 3px 1px orange;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  
+
+
+}
